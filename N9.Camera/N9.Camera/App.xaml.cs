@@ -13,7 +13,7 @@ namespace N9.Camera
         {
             InitializeComponent();
 
-            MainPage = new N9.Camera.MainPage();
+            MainPage = new NavigationPage(new CameraPage());
         }
 
         protected override void OnStart()
