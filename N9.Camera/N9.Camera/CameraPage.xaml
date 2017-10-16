@@ -6,9 +6,9 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <Image x:Name="imgFoto"/>
                 <Button Text="Tirar Foto" Clicked="Button_Clicked" />
                 <Button x:Name="btnSelecionarImagem" Text="Selecionar uma imagem" Clicked="btnSelecionarImagem_Clicked" />
+                <Image x:Name="imgFoto"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
