@@ -25,7 +25,7 @@ namespace N9.Camera
             //Primeiro verificamos se o dispositivo possui uma câmera disponível usando os métodos IsCameraAvailable e IsTakePhotoSupported
             if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
             {
-                await DisplayAlert("Nenhuma Câmera", ":( Nenuma Câmera disponível.", "OK");
+                await DisplayAlert("Nenhuma Câmera", ":( Nenhuma Câmera disponível.", "OK");
                 return;
             }
 

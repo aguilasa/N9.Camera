@@ -4,10 +4,12 @@
              x:Class="N9.Camera.CameraPage"
              Title="Usar Câmera">
     <ContentPage.Content>
-        <StackLayout>
-            <Image x:Name="imgFoto"/>
-            <Button Text="Tirar Foto" Clicked="Button_Clicked" />
-            <Button x:Name="btnSelecionarImagem" Text="Selecionar uma imagem" Clicked="btnSelecionarImagem_Clicked" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <Image x:Name="imgFoto"/>
+                <Button Text="Tirar Foto" Clicked="Button_Clicked" />
+                <Button x:Name="btnSelecionarImagem" Text="Selecionar uma imagem" Clicked="btnSelecionarImagem_Clicked" />
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
